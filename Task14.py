@@ -30,3 +30,15 @@ average_waiting_time= sum_wt/nc
 
 print(f"The Average waiting time is : {average_waiting_time}")
 
+#How many Customers: 4
+#Enter Arrival time of Customer 1: 5
+#Enter Time required to prepare tea: 2
+#Enter Arrival time of Customer 2: 5
+#Enter Time required to prepare tea: 4
+#Enter Arrival time of Customer 3: 10
+#Enter Time required to prepare tea: 3
+#Enter Arrival time of Customer 4: 20
+#Enter Time required to prepare tea: 1
+#[[5, 2], [5, 4], [10, 3], [20, 1]]
+#The Average waiting time is : 3.25
+
