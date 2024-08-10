@@ -30,6 +30,12 @@ set.sort(key=lambda x: x[1], reverse=True)
 
 for pair in set:
     print(f"{pair[0][0]} & {pair[0][1]}: {pair[1]*100}% overlap" )
+
+#Kevin & Bob: 40.0% overlap
+#Stuart & Bob: 40.0% overlap
+#Stuart & Edith: 40.0% overlap
+#Bob & Edith: 40.0% overlap
+#Kevin & Edith: 30.0% overlap
  
 
 
