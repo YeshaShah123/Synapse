@@ -14,3 +14,6 @@ gadget_sort=sorted(gadgets)
 gadget_sort= sorted(gadget_sort, key= lambda x:( x[2],x[1] ), reverse=True )
 
 print(gadget_sort)
+
+
+#[('Batarangs', 5, True), ('Batmobile Tires', 4, True), ('Explosive Batarangs', 3, True), ('Grapple Gun', 3, True), ('Tear Gas Grenades', 2, True), ('Night Vision Goggles', 1, True), ('Utility Belt', 1, True), ('Batclaw', 0, False), ('Batsignal', 0, False), ('Smoke Pellets', 0, False)]
